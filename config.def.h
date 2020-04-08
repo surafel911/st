@@ -86,6 +86,10 @@ unsigned int tabspaces = 4;
 float alpha = 0.9;           //< alpha value used when the window is focused.
 float alphaUnfocussed = 0.7; //< alpha value used when the focus is lost
 
+/* bg opacity */
+float alpha = 0.9;            //< alpha value used when the window is focused.
+float alphaUnfocussed = 0.75; //< alpha value used when the focus is lost
+
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
