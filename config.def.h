@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:pixelsize=12:antialias=true:autohint=true";
+static char *font = "monospace:pixelsize=14:antialias=true:autohint=true:style=Regular";
 static int borderpx = 2;
 
 /*
@@ -81,10 +81,6 @@ char *termname = "st-256color";
  *	stty tabs
  */
 unsigned int tabspaces = 4;
-
-/* bg opacity */
-float alpha = 0.9;           //< alpha value used when the window is focused.
-float alphaUnfocussed = 0.7; //< alpha value used when the focus is lost
 
 /* bg opacity */
 float alpha = 0.9;            //< alpha value used when the window is focused.
